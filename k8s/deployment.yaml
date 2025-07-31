@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: reviewfilmes
-          image: fabricioveronez/missao-pipeline
+          image: felixgilioli/missao-pipeline
           env:
           - name: ASPNETCORE_HTTP_PORTS
             value: "8080"
